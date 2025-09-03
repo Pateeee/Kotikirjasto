@@ -7,7 +7,6 @@ namespace KirjalistaApp
         public int Year { get; set; }
         public string Genre { get; set; }
 
-        // Konstruktori pakottaa antamaan kaikki arvot
         public Book(string title, string author, int year, string genre)
         {
             Title = title;
